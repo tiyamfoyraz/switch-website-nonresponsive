@@ -1,0 +1,1055 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+/*   --CUSTOM FONTS--  */
+
+    @font-face{
+     font-family: ProximaNova;
+     src: url("ProximaNova.eot")
+    }    /*for IE or old browsers*/
+    
+    @font-face{
+     font-family: ProximaNova;
+        src: url("ProximaNova.otf");
+    }    /*    for css3 */
+
+
+/*  --HEADER SECTION STYLE--  */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* NAVBAR SECTION STYLE */
+
+header .nav-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.nav-section:nth-child(1){
+    height: 20px;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 6px;
+    font-size: 13px;
+    transition: background .3s;
+}
+
+.navbar ul li:hover{
+   background: #54d154;
+   border-radius: 3px;
+    
+}
+
+nav ul li:nth-child(1):hover{
+    border-radius: 0;
+    background: none;   
+}
+
+nav ul li:nth-child(1) {
+    font-weight: bold;
+    border-top: 2px solid #54d154;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: ProximaNova;
+    color: #f5f5f5;
+}
+
+.nav-section:nth-child(2){
+    height: 20px;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.nav-section:nth-child(3){
+    height: 20px;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/* --LOGO SECTION STYLE-- */
+
+
+.logo img{
+   margin-left: 31%;
+   margin-top: 2%;
+}
+
+
+/*  --SEARCHBAR SECTION STYLE-- */
+
+input[type="text"]:nth-child(1){
+    border-radius: 20px 0 0 20px;
+    width: 34.5%;
+    height: 3vh;
+    padding: 4px 0 4px 13px;
+    border: none;
+    background: rgba(255, 255, 255, 0.82);
+    margin-left: 36.2%;
+}
+
+.fa-search{
+    position: absolute;
+    margin-top: 3px;
+    left: 44%;
+    background: rgba(255, 255, 255, 0.82);
+    padding: 4.5px;
+    border-radius: 0 20px 20px 0;
+    margin: 0px 0 0 120px;
+    width: 27px;
+    height: 3vh;
+    
+}
+
+/*  --HEADER TITLE STYLE--  */
+.header-title{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    color: #fff;
+    font-size: 20px;
+}
+
+/*  --WORK WITH US BUTTON STYLE--  */
+
+.work-button a{
+    text-decoration: none;
+    color: #fff;
+    background: #54d154;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background .3s;
+}
+
+.work-button a:hover{
+    background: #349a34;
+}
+
+.scroll-button{
+    text-align: center;
+    margin-top: -38px;
+}
+
+
+.scroll-button a{
+    text-decoration: none;
+    color: #2c2c2c;
+    background: rgba(238, 238, 238, 0.74);
+    border-radius: 25px;
+    padding: 6px 20px;
+    font-family: ProximaNova;
+    transition: all .5s;
+}
+
+.scroll-button a:hover{
+    box-shadow: 1px 2px 10px #2a2a2a;
+}
+
+.fa-arrow-down{
+    margin: 5px 0 0 4px;
+    color: #2c2c2c;
+}
+
+
+/* ---END OF HEADER SECTION STYLE---   */
+
+/* --------------------------------- */
+
+/*   ---MAIN SECTION STYLE---   */
+
+/*  WHAT WE DO SECTION STYLE  */
+.work{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.work-container{
+    width: 90%;
+    margin: 90px auto;
+    box-sizing: border-box;   
+}
+.work-title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #828181;
+}
+
+.work-title p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #bcb9b9;
+}
+
+.work-title .underline{
+    border-bottom: 1.5px solid #828181;
+    padding-bottom: 7px;
+}
+
+.work-content{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 60px;
+}
+
+.work-content h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #828181;
+}
+
+.work-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    color: #828181;
+}
+
+.work-content .work-icon{
+   padding: 15px;
+   border-radius: 17px;
+   color: #54d154;
+   background: #e1f3e1;
+}
+
+.work-content .learn-button{
+    text-decoration: none;
+    color: #fff;
+    background: #54d154;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 22px;
+    font-family: ProximaNova;
+    display: inline-block;
+    margin-top: 25px;
+    transition: background .3s;
+}
+
+.work-content .learn-button:hover{
+    background: #3f9b3f;
+}
+
+/* END OF WHAT WE DO SECTION STYLE  */
+
+/* ---------------------------------- */
+
+/*  --PROJECT SECTION STYLE--   */
+
+.project{
+    width: 100%;
+    box-sizing: border-box;
+    background: #54d154;
+    margin-top: 120px 0 0 100px;
+}
+
+
+.project-container{
+    width: 90%;
+    margin: 100px auto;
+    box-sizing: border-box;
+    
+}
+
+.project-title{
+    display: inline-block;
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project-title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #207b20;
+}
+
+.project-title p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e9f2e;
+}
+
+.project-title .underline{
+    border-bottom: 1.5px solid #828181;
+    padding-bottom: 7px;
+}
+
+.project-button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-button a{
+    padding: 10px 18px;
+    background: #fff;
+    font-family: ProximaNova;
+    color: #2b9b2b;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4px;
+    border: 1px solid #2b9b2b; 
+    transition: color .3s,background .3s;
+}
+
+.project-button .btn1{
+    border-radius: 20px 0 0 20px;
+    background: #2b9b2b;
+    color: #fff;
+}
+
+.project-button .btn1:hover{
+    background: #fff;
+    color: #1e6c1e;
+}
+
+.project-button .btn2:hover{
+    background: #268026;
+    color: #fff;
+}
+
+.project-button .btn3:hover{
+    background: #268026;
+    color: #fff;
+}
+
+.project-button .btn3{
+    border-radius: 0 20px 20px 0;
+}
+
+
+.project-content{
+    width: 19%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.project-content img{
+    width: 100%;
+}
+
+.project-detail{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+/* VIEW MORE WORK - BUTTON STYLE */
+
+.project-closebutton{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.project-closebutton a{
+    text-decoration: none;
+    color: #fff;
+    background: #2b9b2b;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: ProximaNova;
+    font-weight: bold;
+    transition: box-shadow .3s;
+}
+
+.project-closebutton a:hover{
+    box-shadow: 2px 3px 11px #316c31;
+}
+
+.arrow1{
+    margin: 5px 0 0 8px;
+    color: #fff;
+    
+}
+
+
+/* END OF PROJECT SECTION STYLE */
+
+
+/* TESTIMONIAL SECTION STYLE */
+
+.testimonial{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.testimonial-container{
+    width: 70%;
+    margin: 60px auto;
+    box-sizing: border-box;
+    
+}
+
+.testimonial-title .underline{
+    border-bottom: 1.5px solid #828181;
+    padding-bottom: 7px;
+}
+
+.testimonial-title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #828181;
+}
+
+.testimonial-title p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #bcb9b9;
+}
+
+.arrow-left{
+    width: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.arrow-right{
+    width: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: -10px;
+}
+
+.testimonial-detail{
+    width: 94%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: ProximaNova;
+    padding: 40px; 
+    text-align: center;
+}
+
+.testimonial-person{
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.testimonial-person .herp-image{
+    float: left;
+    width: 7%;
+    margin-left: 41%;
+    margin-top: 9px;
+}
+
+.testimonial-person .name{
+    float: right;
+    width: 30%;
+    margin-right: 22%;
+    margin-top: 17px;
+}
+
+.name h4{
+    margin: 0;
+    padding: 0;
+}
+
+.name h4:nth-child(1){
+    font-family: ProximaNova;
+    color: #191919;
+}
+
+.name h4:nth-child(2){
+    font-family: ProximaNova;
+    color: #d0d0d0;
+}
+
+/* END OF TESTIMONIAL SECTION STYLE */
+
+
+/* CLIENT SECTION STYLE */
+
+.client{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #f2f1f1;
+}
+
+
+.client-container{
+    width: 80%;
+    margin: 60px auto;
+    box-sizing: border-box;
+    
+}
+
+
+.client-title{
+    display: inline-block;
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.client-title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #828181;
+}
+
+.client-title p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #bcb9b9;
+}
+
+.client-title .underline{
+    border-bottom: 1.5px solid #afafaf;
+    padding-bottom: 7px;
+}
+
+
+.client-detail{
+    margin-left: 50px;
+}
+
+.client-content{
+    width: 24%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 70px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+/* SEE ALL CLIENT - BUTTON STYLE */
+
+.client-closebutton{
+    text-align: center;
+    margin-top: 11%;
+    
+}
+
+.client-closebutton a{
+    text-decoration: none;
+    color: #ada6a6;
+    background: #dddcdc;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: ProximaNova;
+    font-weight: bold;
+    transition: box-shadow .3s;
+}
+
+.client-closebutton a:hover{
+   box-shadow: 3px 3px 11px #a8a8a8; 
+}
+
+.arrow2{
+    margin: 5px 0 0 8px;
+    color: #ada6a6;
+    
+}
+
+
+/*  --END OF CLIENT SECTION STYLE--  */
+
+
+/*   ---TEAM SECTION STYLE---   */
+
+.team{
+    width: 100%;
+    box-sizing: border-box;
+    background: #54d154;
+}
+
+
+.team-container{
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 8%;
+    box-sizing: border-box;
+    
+}
+
+.team-title{
+    display: inline-block;
+    width: 99%;
+    margin: 4% auto;
+    text-align: center;
+}
+
+.team-title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #207b20;
+}
+
+.team-title p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e9f2e;
+}
+
+.team-title .underline{
+    border-bottom: 1.5px solid #207b20;
+    padding-bottom: 7px;
+}
+
+
+.team-content .members{
+    width: 18%;
+    margin-left: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.team-content .line{
+    display: block;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+.team-content p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+/* --WORK WITH US - BUTTON STYLE--   */
+
+.team-button{
+  padding: 1.5em;
+  background: #3eba3e;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.team-button a{
+    text-decoration: none;
+    background: #54d154;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: ProximaNova;
+    box-shadow: 0 2px 3px #316c31;
+    transition: background .3s;
+}
+
+.team-button a:hover{
+   background: #349a34; 
+}
+
+
+.small-icons{
+    background: #c5e9c5;
+    display: inline;
+    padding: 10px 10px 1px 10px;
+    border-radius: 35px;
+}
+
+/*   ---END OF TEAM SECTION STYLE---   */
+
+/* --FOOTER SECTION STYLE-- */
+
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    background: #333333;
+}
+
+.upper-section{
+    width: 95%;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+/*  --ABOUT US SECTION STYLE--   */
+
+.about-us{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5.5%;
+}
+
+.about-us .heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #bababa;
+}
+
+.about-us .underline{
+    border-bottom: 1.5px solid #bababa;
+}
+
+.about-us .para{
+    margin-top: 30px;
+}
+
+.about-us .para p{
+    text-align: center;
+    font-family: ProximaNova;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #bababa;
+}
+
+.about-us .small-icons{
+    background: #c5e9c5;
+    display: inline;
+    padding: 10px 10px 1px 10px;
+    border-radius: 35px;
+    margin-left: 32%;
+}
+
+/*  --END OF ABOUT US SECTION STYLE--   */
+
+
+
+/*  --RECENT POSTS SECTION STYLE--   */
+.recent-posts{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 18px;
+}
+
+.recent-posts .heading{
+    margin-top: -1px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #bababa;
+}
+
+.recent-posts .underline{
+    border-bottom: 1.5px solid #bababa;
+}
+
+.recent-posts p{
+    margin: 0;
+    padding: 0;
+    font-family: ProximaNova;
+}
+
+.post-left{
+   box-sizing: border-box;
+   width: 17%;
+   display: inline-block;
+   margin-top: 10px;
+}
+
+.post-left img{
+    margin-top: 3%;
+}
+
+.post1 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+   padding: 5px;
+}
+
+.post1 button{
+    background: #54d154;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: background .5s;
+}
+
+.post1 button:hover{
+    background: #41a841;
+}
+
+.post2 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+   padding: 5px;
+}
+
+.post2 button{
+    background: #ffba00;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: background .3s;
+}
+
+.post2 button:hover{
+    background: #e2761a;
+}
+
+.post3 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+   padding: 5px;
+}
+
+.post3 button{
+    background: #089dea;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px; 
+    transition: background .3s;
+}
+
+.post3 button:hover{
+    background: #0482c3;
+}
+
+.post4 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+}
+
+.post4 button{
+    background: #f34d04;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px; 
+    transition: background .3s;
+}
+
+.post4 button:hover{
+    background: #cc3e00;
+}
+
+.post5 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+}
+
+.post5 button{
+    background: #ffba00;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: background .3s;
+}
+
+.post5 button:hover{
+   background: #e2761a;
+}
+
+/*  --END OF RECENT POSTS SECTION STYLE--   */
+
+
+/*  --CONTACT US SECTION STYLE--   */
+
+.contact-us{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.contact-us .heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #bababa;
+}
+
+
+.contact-us .underline{
+    border-bottom: 1.5px solid #bababa;
+}
+
+.contact-us .address p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: grey;
+}
+
+.contact-us .form{
+    margin-top: 69px;
+    margin-left: 45px;
+}
+
+input[type="name"]{
+    border-radius: 2px 2px 0 0 ;
+    display: block;
+    padding: 5px 0 5px 7.5px;
+    width: 83.5%;
+    border: none;
+    background: #444444;
+}
+
+textarea{
+    display: block;
+    width: 308px;
+    padding: 7.5px;
+    border: none;
+    margin-top: 2px;
+    background: #444444;
+    color: grey;
+ }
+
+.send-mail{
+    display: block;
+    padding: 5px 0 5px 6.5px;
+    width: 84%;
+    border: none;
+    margin-top: 2px;
+    background: #444444;
+    
+}
+
+.send-button{
+    width: 86%;
+    border-radius: 0 0 2px 2px;
+    border: none;
+    font-family: ProximaNova;
+    background: #2b9b2b;
+    color: #fff;
+    height: 5vh;
+    margin-top: 2px;
+    transition: background .3s;
+}
+
+.send-button:hover{
+   background: #288328; 
+}
+
+/*  --END OF CONTACT US SECTION STYLE--  */
+
+
+
+/*   --LOWER SECTION STYLE--   */
+
+.lower-section{
+  width: 100%;
+  box-sizing: border-box;
+} 
+
+.overlay{
+    width: 100%;
+    background: black;
+    height: 22vh;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+    
+}
+
+.news-container{
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.news-title h4{
+    display: inline-block;
+    margin-left: 45%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #121212;
+    margin-top: 20px;
+}
+
+.news-title .underline{
+    border-bottom: 1.5px solid #121212;
+}
+
+.news-content{
+  margin-left: 3%;
+}
+.news-content .news-img{
+    padding: 2%;
+    margin-left: 5%;
+}
+
+/*   --END OF LOWER SECTION STYLE--   */
+
+/*    --END OF FOOTER SECTION STYLE--    */
+
+
+
+
+
+
+/*MEDIA */
+
+@media only screen and (max-width:768px){
+    
+    .work-content{
+       display: block;
+        width: 100%;
+    }
+    
+   .arrow-left{
+    width: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.arrow-right{
+    width: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: -10px;
+}
+
+.testimonial-detail{
+    width: 90%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: ProximaNova;
+    text-align: center;
+}
+}
